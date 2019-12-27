@@ -190,4 +190,8 @@ private class GraphicsMenuListener implements MenuListener {
     public void menuCanceled(MenuEvent e) {
     }
 }
+/* Шаг 2 - Зная объѐм данных в потоке ввода можно вычислить,
+* сколько памяти нужно зарезервировать в массиве:
+* Всего байт в потоке - in.available() байт;
+* Размер одного числа Double - Double.SIZE бит, или
 }
